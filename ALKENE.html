@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alkene</title>
+        <link rel="stylesheet" href="FGstyle.css" type="text/css" />
+    </head>
+    <body>
+        <h1>ALKENES</h1>
+        <img src="images/alkeneIMG.png"></img>
+<p><b>Prefix: </b>N/A</p>
+<p><b>Suffix: </b>-ene</p>
+<br><hr><br>
+<h3>Testing for the Functional Group:</h3>
+<p>-<span class="bulletpoints">----</span>Add a few drops of bromine (Br<sub>2</sub>) water, and mix.</p>
+<p><span class="bulletpoints">-----</span>POSITIVE RESULT:</p>
+<p><span class="bulletpoints">-----</span>The mixture will change from an orange solution to a colourless solution.</p>
+<br><hr><br>
+<h3>E/Z ISOMERISM:</h3>
+<p>It is not possible for groups to rotate around a C=C bond- this gives rise to geometric isomerism. To name these isomers, Cahn-Ingold-Prelog notation is used. First, the atomic numbers of the two species attached to each carbon atom at the first point of difference are compared. If both the species with the highest atomic number on each carbon atom are on the same side of the bond, that is the Z (<em>zusammen</em>) isomer. If they are on opposite sides, that is the E(entgegen) isomer.</p>
+<br><hr><br>
+<h3>Reactions:</h3>
+<p class="lineStyle" id="path3">> Alkene &#8594; Dihaloalkane</p>
+<p class="lineStyle" id="path6">> Alkene &#8594; Haloalkane</p>
+<p class="lineStyle" id="path10">> Alkene &#8594; Alcohol</p>
+<p class="lineStyle" id="path11">> Alkene &#8594; Polyalkene</p>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $(".lineStyle").click(function() {
+   var chosenPath2 = (this.id);
+   localStorage.setItem("chosenPath", chosenPath2);
+   window.open("Mechanism.html", "_self");
+});
+    });
+    </script>
+    </body>
+</html>
