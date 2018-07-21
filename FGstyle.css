@@ -1,0 +1,43 @@
+h1 {
+text-align: center;
+}
+
+p{
+    margin-left: 5%;
+    width: 80%;
+}
+
+h3 {
+    margin-left: 5%;
+}
+
+body {
+    background-color: rgb(194, 214, 214);
+    font-family: "Times New Roman"
+}
+
+img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100px;
+    width: auto;
+}
+
+.bulletpoints {
+    visibility: hidden;
+}
+
+a {
+    margin-left: 5%;
+    display: block;
+}
+
+.lineStyle {
+    text-decoration: underline;
+}
+
+.lineStyle:hover {
+    cursor: pointer;
+}
