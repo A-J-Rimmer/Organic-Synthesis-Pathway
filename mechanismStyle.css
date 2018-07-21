@@ -1,0 +1,66 @@
+.full {
+background-color: white;
+display: block;
+margin-left: 5%;
+width: 626px;
+height: auto;
+}
+
+.groups {
+display: block;
+margin-left: 5%;
+width: 350px;
+height: auto;
+}
+
+body {
+background-color: rgb(194, 214, 214);
+font-family: "Times New Roman";
+margin-left:0px;
+padding-left:0px;
+}
+
+div {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-left: 5%;
+    width: 80%;
+}
+
+p {
+    margin-left: 5%;
+    width: 80%;
+}
+
+.bulletpoints {
+    visibility: hidden;
+}
+
+a {
+    background-color: white;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius:2px;
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    margin-left: 5%;
+}
+
+td {
+    border: 1px solid black;
+    margin:0px;
+    padding-right:10px;
+}
