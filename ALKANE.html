@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alkane</title>
+        <link rel="stylesheet" href="FGstyle.css" type="text/css" />
+    </head>
+    <body>
+        <h1>ALKANES</h1>
+        <img src="images/alkaneIMG.png"></img>
+<p><b>Prefix: </b>N/A</p>
+<p><b>Suffix: </b>-ane</p>
+<br><hr><br>
+<h3>Required Information:</h3>
+<p>PHYSICAL PROPERTIES:</p>
+<p><em>Melting/Boiling Points:</em>The melting/boiling points of alkanes increases with chain length, as surface area and the number of electrons in the molecule increases, so van der Waals are stronger. Branched alkanes have lower melting/boiling points than their straight-chain isomers because they cannot pack together as closely, so the van der Waals are weaker.</p>
+<p><em>Solubility:</em> Alkanes do not dissolve in water, as they are non-polar molecules (hence the only intermolecular forces between alkanes and water are van der Waals, compared to pd-pds and hydrogen bonds in water, so it is not enthalpically favourable for alkanes to dissolve).</p>
+<br><p>CRUDE OIL AND CRACKING:</p>
+<p>Crude oil can be separated into groups of hydrocarbons with similar boiling points via fractional distillation. This allows for the collection of useful products, such as short chain alkanes for fuels. Often, the demand for these lighter fractions exceeds the supply, so heavier fractions must be 'cracked': breaking C-C bonds to split alkanes into smaller hydrocarbons. Thermal cracking requires a high temperature (700-1200K) and pressure (~7000 kPa), and a large proportion of the products are alkenes, which are useful chemical feedstocks. Catalytic cracking also requires high temperatures (but typically not exceeding 720K), but uses lower pressures (slightly greater than 100kPa) and a zeolite (aluminosilicate) catalyst. The primary products of this method are motor fuels and aromatic hydrocarbons.</p>
+<br><p>COMBUSTION:</p>
+<p>Complete combustion in oxygen has only CO<sub>2</sub> and H<sub>2</sub>O as products, but when there is insufficient oxygen, CO may also be formed, as well as carbon. Combustion engines produce a number of pollutants:</p>
+<p>- CO<sub>2</sub>: A greenhouse gas, which contributes to global warming.</p>
+<p>- CO: Carbon monoxide is toxic.</p>
+<p>- Particulates: These are carbon particles, which cause global dimming, respiratory problems, and cancer.</p>
+<p>- NO<sub>x</sub>: The high temperatures in engines can provide enough energy for nitrogen and oxygen to react, forming nitrogen oxides, which cause acid rain when they react with water vapour in the atmosphere. However, they can be removed from exhaust gases by fitting a catalytic converter, so that they react with CO to form carbon dioxide and nitrogen gas.</p>
+<p>- Unburnt hydrocarbons: These are greenhouse gases, contributing to global warming.</p>
+<p>- SO<sub>2</sub>: Sulphur-containing impurities in the fuel react with oxygen to form SO<sub>2</sub>, which can react with water to form sulphuric acid (acid rain). This can be removed from flue gases by reacting it with calcium carbonate/oxide to make calcium sulphate (gypsum).</p>
+<br><hr><br>
+<h3>Reactions:</h3>
+<p class="lineStyle" id="path2">> Alkane &#8594; Haloalkane</p>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $(".lineStyle").click(function() {
+   var chosenPath2 = (this.id);
+   localStorage.setItem("chosenPath", chosenPath2);
+   window.open("Mechanism.html", "_self");
+});
+    });
+    </script>
+    </body>
+</html>
