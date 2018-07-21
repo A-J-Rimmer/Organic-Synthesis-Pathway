@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Haloalkanes</title>
+        <link rel="stylesheet" href="FGstyle.css" type="text/css" />
+    </head>
+    <body>
+        <h1>HALOALKANES</h1>
+        <img src="images/haloalkaneIMG.png"></img>
+<p><b>Prefix: </b>Fluoro-, Chloro-, Bromo-, Iodo-</p>
+<p><b>Suffix: </b>N/A</p>
+<br><hr><br>
+<h3>Testing for the Functional Group:</h3>
+<p>-<span class="bulletpoints">----</span>Heat with aqueous KOH- this will form an alcohol, and a halide ion.</p>
+<p>-<span class="bulletpoints">----</span>Acidify with nitric acid (HNO<sub>3</sub>), then add silver nitrate (AgNO<sub>3</sub>).</p>
+<p><span class="bulletpoints">-----</span>POSITIVE RESULTS:</p>
+<p><span class="bulletpoints">-----</span>Chloroalkane: White Precipitate (AgCl), that dissolves in dilute ammonia (NH<sub>3</sub>).</p>
+<p><span class="bulletpoints">-----</span>Bromoalkane: Cream Precipitate (AgBr), that dissolves in concentrated ammonia.</p>
+<p><span class="bulletpoints">-----</span>Iodoalkane: Yellow Precipitate (AgI), that is insoluble in ammonia.</p>
+<br><hr><br>
+<h3>Required Information:</h3>
+<p>PHYSICAL PROPERTIES:</p>
+<p><em>Melting/Boiling Points:</em> Haloalkanes have higher melting/boiling points than alkanes of the same chain length, as the C-X bond is polar (causing permanent dipole-permanent dipole interactions), and the Group 7 atoms contain more electrons (so increase van der Waals).</p>
+<p><em>Solubility:</em> The C-X bonds are not polar enough to make haloalkanes soluble in water.</p>
+<br><p>C-X REACTIVITY:</p>
+<p>The reactivity of the C-X bond depends on the polarity of the bond, and the bond enthalpy. If bond polarity was the most important factor, reactivity would decrease down the group (the more polar the bond, the easier it is for the carbon to be attacked by a nucleophile). However, it can be determined experimentally (using the same method as described above for identifying functional groups) that bond enthalpy is the most important factor. Down the group, the electrons in the C-X bond are less drawn to the halogen nucleus, and so bond enthalpy decreases (i.e. bonds become weaker, and more reactive). Therefore, <b>reactivity of the C-X bond increases down the group.</b></p>
+<br><p>CFCs:</p>
+<p>The unreactivity of chlorofluorocarbons (CFCs) allowed them to be used as refrigerants and solvents, until it was found that they can decompose in the upper atmosphere (due to exposure to UV radiation), forming chlorine radicals. These radicals act as catalysts for the reaction of ozone (O<sub>3</sub>) molecules to form oxygen (O<sub>2</sub>), which has contributed to the formation of a hole in the ozone layer. Both upper atmosphere and laboratory research was used to provide evidence for this, leading to the compounds being banned. They have now been replaced with alternative chlorine-free compounds.</p>
+<p>e.g. CCl<sub>3</sub>F <em>(+UV radiation)</em> &#8594; &#8226;CCl<sub>2</sub>F +	&#8226;Cl</p>
+<p>&#8226;Cl + O<sub>3</sub> &#8594; &#8226;ClO + O<sub>2</sub></p>
+<p>&#8226;ClO + O<sub>3</sub> &#8594; &#8226;Cl + 2O<sub>2</sub></p>
+<p>OVERALL: 2O<sub>3</sub> &#8594; 3O<sub>2</sub></p>
+<br><hr><br>
+<h3>Reactions:</h3>
+<p class="lineStyle" id="path5">> Haloalkane &#8594; Alkene</p>
+<p class="lineStyle" id="path7">> Haloalkane &#8594; Alcohol</p>
+<p class="lineStyle" id="path1">> Haloalkane &#8594; Amine</p>
+<p class="lineStyle" id="path4">> Haloalkane &#8594; Nitrile</p>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $(".lineStyle").click(function() {
+   var chosenPath2 = (this.id);
+   localStorage.setItem("chosenPath", chosenPath2);
+   window.open("Mechanism.html", "_self");
+});
+    });
+    </script>
+</body>
+</html>
