@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ketone</title>
+        <link rel="stylesheet" href="FGstyle.css" type="text/css" />
+    </head>
+    <body>
+        <h1>KETONES</h1>
+        <img src="images/ketoneIMG.png"></img>
+<p><b>Prefix: </b>Oxo-</p>
+<p><b>Suffix: </b>-one</p>
+<br><hr><br>
+<h3>Reactions:</h3>
+<p class="lineStyle" id="path14">> Ketone &#8594; Hydroxynitrile</p>
+<p class="lineStyle" id="path13">> Ketone &#8594; Alcohol</p>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $(".lineStyle").click(function() {
+   var chosenPath2 = (this.id);
+   localStorage.setItem("chosenPath", chosenPath2);
+   window.open("Mechanism.html", "_self");
+});
+    });
+    </script>
+    </body>
+</html>
