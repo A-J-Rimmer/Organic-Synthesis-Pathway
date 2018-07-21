@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nitrile</title>
+        <link rel="stylesheet" href="FGstyle.css" type="text/css" />
+    </head>
+    <body>
+        <h1>NITRILES</h1>
+        <img src="images/nitrileIMG.png"></img>
+<p><b>Prefix: </b>Cyano-</p>
+<p><b>Suffix: </b>-nitrile</p>
+<br><hr><br>
+<h3>Reactions:</h3>
+<p class="lineStyle" id="path18">> Nitrile &#8594; Carboxylic Acid</p>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $(".lineStyle").click(function() {
+   var chosenPath2 = (this.id);
+   localStorage.setItem("chosenPath", chosenPath2);
+   window.open("Mechanism.html", "_self");
+});
+    });
+    </script>
+    </body>
+</html>
