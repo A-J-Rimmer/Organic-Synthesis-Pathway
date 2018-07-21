@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aldehyde</title>
+        <link rel="stylesheet" href="FGstyle.css" type="text/css" />
+    </head>
+    <body>
+        <h1>ALDEHYDES</h1>
+        <img src="images/aldehydeIMG.png"></img>
+<p><b>Prefix: </b>Formyl-</p>
+<p><b>Suffix: </b>-al (or -carbaldehyde on rings)</p>
+<br><hr><br>
+<h3>Testing for the Functional Group:</h3>
+<p>A)<span class="bulletpoints">----</span>Heat with Tollen's reagent, or</p>
+<p>B)<span class="bulletpoints">----</span>Heat with Fehling's solution</p>
+<p><span class="bulletpoints">-----</span>POSITIVE RESULTS:</p>
+<p><span class="bulletpoints">-----</span>A: Silver mirror forms, as the diamminesilver(I) ions are reduced to solid silver.</p>
+<p><span class="bulletpoints">-----</span>B: Brick red precipitate forms, as the complexed copper(II) ions are reduced to copper(I) oxide.</p>
+<br><hr><br>
+<h3>Reactions:</h3>
+<p class="lineStyle" id="path17">> Aldehyde &#8594; Hydroxynitrile</p>
+<p class="lineStyle" id="path16">> Aldehyde &#8594; Alcohol</p>
+<p class="lineStyle" id="path19">> Aldehyde &#8594; Carboxylic Acid</p>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $(".lineStyle").click(function() {
+   var chosenPath2 = (this.id);
+   localStorage.setItem("chosenPath", chosenPath2);
+   window.open("Mechanism.html", "_self");
+});
+    });
+    </script>
+    </body>
+</html>
