@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alcohol</title>
+        <link rel="stylesheet" href="FGstyle.css" type="text/css" />
+    </head>
+    <body>
+        <h1>ALCOHOLS</h1>
+        <img src="images/alcoholIMG.png"></img>
+<p><b>Prefix: </b>Hydroxy-</p>
+<p><b>Suffix: </b>-ol</p>
+<br><hr><br>
+<h3>Testing for the Functional Group:</h3>
+<p>-<span class="bulletpoints">----</span>Add a small piece of sodium metal.</p>
+<p><span class="bulletpoints">-----</span>POSITIVE RESULT:</p>
+<p><span class="bulletpoints">-----</span>Effervescence.</p>
+<p><span class="bulletpoints">-----</span>NOTE: This result is not unique to alcohols (e.g. Carboxylic acids also effervesce).</p>
+<br><hr><br>
+<h3>Required Information:</h3>
+<p>PHYSICAL PROPERTIES:</p>
+<p><em>Melting/Boiling Points:</em> Alcohols have higher melting and boiling points than alkanes with the same number of carbon atoms, as the -OH groups cause hydrogen bonding to occur.</p>
+<p><em>Solubility:</em> The -OH group allows short-chain alcohols to dissolve in water- however, the carbon chain is non-polar (and therefore insoluble), and so as the length of the chain increases, the more it inhibits dissolution, and hence solubility decreases.</p>
+<br><p>ETHANOL AS A BIOFUEL:</p>
+<p> Glucose can be broken down by enzymes (e.g. zymase) in yeast into ethanol. This glucose comes from carbohydrates in crops such as sugar cane/beet. This reaction is an example of anaerobic respiration:</p>
+<p>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> &#8594; 2C<sub>2</sub>H<sub>5</sub>OH + 2CO<sub>2</sub></p>
+<p>The resulting mixture is ~15% ethanol, (as the enzymes cannot function at higher concentrations) which can be separated via fractional distillation and used as a biofuel.</p>
+<p>Ethanol can also be made via the hydration of ethene from crude oil. This method is faster, can occur continuously, and gives a purer product. However, crude oil is a non-renewable source, and when oil reserves are depleted, it may become more economical to make ethanol by the fermentation of sugars.</p>
+<br><p>OXIDATION:</p>
+<p>Tertiary alcohols are not easily oxidised, as this requires a C-C bond to break (rather than a C-H bond). However, primary and secondary alcohols can be oxidised via potassium dichromate (K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>) and sulphuric acid (H<sub>2</sub>SO<sub>4</sub>).</p>
+<p>PRIMARY ALCOHOL &#8594; ALDEHYDE &#8594; CARBOXYLIC ACID*</p>
+<p>PRIMARY ALCOHOL &#8594; KETONE*</p>
+<p>*No further oxidation occurs at this stage, for the same reason as tertiary alcohols.</p>
+<br><hr><br>
+<h3>Reactions:</h3>
+<p class="lineStyle" id="path8">> Alcohol &#8594; Haloalkane</p>
+<p class="lineStyle" id="path15">> Alcohol &#8594; Aldehyde</p>
+<p class="lineStyle" id="path12">> Alcohol &#8594; Ketone</p>
+<p class="lineStyle" id="path9">> Alcohol &#8594; Alkene</p>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $(".lineStyle").click(function() {
+   var chosenPath2 = (this.id);
+   localStorage.setItem("chosenPath", chosenPath2);
+   window.open("Mechanism.html", "_self");
+});
+    });
+</script>
+    </body>
+</html>
