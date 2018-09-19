@@ -41,3 +41,13 @@ a {
 .lineStyle:hover {
     cursor: pointer;
 }
+
+#backButton {
+    background-color: white;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius:2px;
+    text-decoration: none;
+    color: black;
+}
