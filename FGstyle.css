@@ -50,4 +50,5 @@ a {
     border-radius:2px;
     text-decoration: none;
     color: black;
+    display: inline;
 }
